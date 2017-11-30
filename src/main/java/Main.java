@@ -21,6 +21,7 @@ public class Main {
         final Map<Integer, String> customers = hazelcastInstance.getMap("customers");
         final ISet<Object> customersSet = hazelcastInstance.getSet("customers set");
 
+
         customers.put(1, "Joe");
         customers.put(2, "Ali");
         customers.put(3, "Avi");
